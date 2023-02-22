@@ -17,6 +17,8 @@
 		A2A7DDAF29A61FEA00978E6C /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDAE29A61FEA00978E6C /* DownloadsViewController.swift */; };
 		A2A7DDB129A61FF800978E6C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDB029A61FF800978E6C /* SearchViewController.swift */; };
 		A2A7DDB329A6200500978E6C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */; };
+		A2A7DDBB29A62CF000978E6C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDBA29A62CF000978E6C /* CollectionViewTableViewCell.swift */; };
+		A2A7DDBD29A6389000978E6C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDBC29A6389000978E6C /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A2A7DDAE29A61FEA00978E6C /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		A2A7DDB029A61FF800978E6C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		A2A7DDBA29A62CF000978E6C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		A2A7DDBC29A6389000978E6C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,11 @@
 		A2A7DD9529A61BFA00978E6C /* SwiftTV */ = {
 			isa = PBXGroup;
 			children = (
+				A2A7DDB929A62CBC00978E6C /* Managers */,
+				A2A7DDB829A62CB300978E6C /* Resources */,
+				A2A7DDB729A62C8E00978E6C /* Models */,
+				A2A7DDB629A62C8700978E6C /* ViewModels */,
+				A2A7DDB529A62C7F00978E6C /* Views */,
 				A2A7DDB429A6240E00978E6C /* Controllers */,
 				A2A7DD9629A61BFA00978E6C /* AppDelegate.swift */,
 				A2A7DD9829A61BFA00978E6C /* SceneDelegate.swift */,
@@ -85,6 +94,43 @@
 				A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2A7DDB529A62C7F00978E6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2A7DDBA29A62CF000978E6C /* CollectionViewTableViewCell.swift */,
+				A2A7DDBC29A6389000978E6C /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2A7DDB629A62C8700978E6C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A2A7DDB729A62C8E00978E6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2A7DDB829A62CB300978E6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2A7DDB929A62CBC00978E6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A7DDB329A6200500978E6C /* UpcomingViewController.swift in Sources */,
+				A2A7DDBD29A6389000978E6C /* HeroHeaderUIView.swift in Sources */,
 				A2A7DDAD29A61FDC00978E6C /* HomeViewController.swift in Sources */,
 				A2A7DDB129A61FF800978E6C /* SearchViewController.swift in Sources */,
 				A2A7DD9B29A61BFA00978E6C /* ViewController.swift in Sources */,
 				A2A7DDAF29A61FEA00978E6C /* DownloadsViewController.swift in Sources */,
+				A2A7DDBB29A62CF000978E6C /* CollectionViewTableViewCell.swift in Sources */,
 				A2A7DD9729A61BFA00978E6C /* AppDelegate.swift in Sources */,
 				A2A7DDAB29A61E1A00978E6C /* MainTabBarController.swift in Sources */,
 				A2A7DD9929A61BFA00978E6C /* SceneDelegate.swift in Sources */,
