@@ -18,6 +18,9 @@
 		A2A7DDB329A6200500978E6C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */; };
 		A2A7DDBB29A62CF000978E6C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDBA29A62CF000978E6C /* CollectionViewTableViewCell.swift */; };
 		A2A7DDBD29A6389000978E6C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7DDBC29A6389000978E6C /* HeroHeaderUIView.swift */; };
+		A2BC01F829AE1BE100E3238B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC01F729AE1BE100E3238B /* APICaller.swift */; };
+		A2BC01FA29AE240900E3238B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC01F929AE240900E3238B /* Movie.swift */; };
+		A2BC01FC29AE27C100E3238B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC01FB29AE27C100E3238B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		A2A7DDBA29A62CF000978E6C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		A2A7DDBC29A6389000978E6C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		A2BC01F729AE1BE100E3238B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A2BC01F929AE240900E3238B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A2BC01FB29AE27C100E3238B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +78,9 @@
 				A2A7DDB629A62C8700978E6C /* ViewModels */,
 				A2A7DDB529A62C7F00978E6C /* Views */,
 				A2A7DDB429A6240E00978E6C /* Controllers */,
-				A2A7DD9629A61BFA00978E6C /* AppDelegate.swift */,
-				A2A7DD9829A61BFA00978E6C /* SceneDelegate.swift */,
 				A2A7DD9F29A61BFA00978E6C /* Assets.xcassets */,
 				A2A7DDA129A61BFA00978E6C /* LaunchScreen.storyboard */,
 				A2A7DDA429A61BFA00978E6C /* Info.plist */,
-				A2A7DDAA29A61E1A00978E6C /* MainTabBarController.swift */,
 			);
 			path = SwiftTV;
 			sourceTree = "<group>";
@@ -89,6 +92,7 @@
 				A2A7DDAE29A61FEA00978E6C /* DownloadsViewController.swift */,
 				A2A7DDB029A61FF800978E6C /* SearchViewController.swift */,
 				A2A7DDB229A6200500978E6C /* UpcomingViewController.swift */,
+				A2A7DDAA29A61E1A00978E6C /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +116,7 @@
 		A2A7DDB729A62C8E00978E6C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A2BC01F929AE240900E3238B /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +124,9 @@
 		A2A7DDB829A62CB300978E6C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A2A7DD9629A61BFA00978E6C /* AppDelegate.swift */,
+				A2A7DD9829A61BFA00978E6C /* SceneDelegate.swift */,
+				A2BC01FB29AE27C100E3238B /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		A2A7DDB929A62CBC00978E6C /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A2BC01F729AE1BE100E3238B /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -202,9 +211,12 @@
 			files = (
 				A2A7DDB329A6200500978E6C /* UpcomingViewController.swift in Sources */,
 				A2A7DDBD29A6389000978E6C /* HeroHeaderUIView.swift in Sources */,
+				A2BC01FA29AE240900E3238B /* Movie.swift in Sources */,
 				A2A7DDAD29A61FDC00978E6C /* HomeViewController.swift in Sources */,
+				A2BC01F829AE1BE100E3238B /* APICaller.swift in Sources */,
 				A2A7DDB129A61FF800978E6C /* SearchViewController.swift in Sources */,
 				A2A7DDAF29A61FEA00978E6C /* DownloadsViewController.swift in Sources */,
+				A2BC01FC29AE27C100E3238B /* Extensions.swift in Sources */,
 				A2A7DDBB29A62CF000978E6C /* CollectionViewTableViewCell.swift in Sources */,
 				A2A7DD9729A61BFA00978E6C /* AppDelegate.swift in Sources */,
 				A2A7DDAB29A61E1A00978E6C /* MainTabBarController.swift in Sources */,
