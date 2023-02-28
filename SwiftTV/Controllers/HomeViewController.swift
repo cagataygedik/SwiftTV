@@ -28,6 +28,9 @@ class HomeViewController: UIViewController {
         
         configureNavBar()
         configureHeaderView()
+        
+        //Debugging code
+        getTopRated()
     }
     
     private func configureHeaderView() {
@@ -51,6 +54,17 @@ class HomeViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         homeFeedTable.frame = view.bounds
+    }
+    //debugging code
+    private func getTopRated() {
+        APICaller.shared.getTopRated { results in
+            switch results {
+            case .success(let movies):
+                print(movies)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
 
