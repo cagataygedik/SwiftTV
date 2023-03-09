@@ -22,7 +22,6 @@ class HeroHeaderUIView: UIView {
         button.setTitle("Play", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         button.layer.borderColor = UIColor.systemOrange.cgColor
-        //button.layer.backgroundColor = UIColor.systemOrange.cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 5
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -34,7 +33,6 @@ class HeroHeaderUIView: UIView {
         button.setTitle("Download", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         button.layer.borderColor = UIColor.systemOrange.cgColor
-       // button.layer.backgroundColor = UIColor.systemOrange.cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 5
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -60,8 +58,6 @@ class HeroHeaderUIView: UIView {
         addSubview(playButton)
         addSubview(downloadButton)
         applyConstraints()
-        
-        
     }
     
     private func applyConstraints() {
